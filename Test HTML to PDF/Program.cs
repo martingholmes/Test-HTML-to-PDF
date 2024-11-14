@@ -14,7 +14,7 @@ namespace Test_HTML_to_PDF
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddHostedService<Worker>();
-                    Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NDaF5cWWtCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdnWH5edXVVRWNcWUR0XkA=");
+                    Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("");
                 })
                 .UseWindowsService(); // Makes it run as a Windows Service
 
